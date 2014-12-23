@@ -1,3 +1,4 @@
 'use strict';
 
-document.body.parentNode.removeChild(e);
+var e = document.body;
+e.parentNode.removeChild(e);
